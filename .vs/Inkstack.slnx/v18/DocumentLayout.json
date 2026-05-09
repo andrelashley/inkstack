@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\inkstack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\appsettings.template.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|solutionrelative:inkstack.api\\appsettings.template.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|solutionrelative:inkstack.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|solutionrelative:inkstack.api\\appsettings.testing.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|solutionrelative:inkstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DCA5D8-5D6A-B2ED-684F-E93228ED1A41}|Inkstack.Core\\Inkstack.Core.csproj|c:\\repos\\inkstack\\inkstack.core\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DCA5D8-5D6A-B2ED-684F-E93228ED1A41}|Inkstack.Core\\Inkstack.Core.csproj|solutionrelative:inkstack.core\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Template.json",
+              "DocumentMoniker": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Template.json",
+              "RelativeDocumentMoniker": "Inkstack.Api\\appsettings.Template.json",
+              "ToolTip": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Template.json",
+              "RelativeToolTip": "Inkstack.Api\\appsettings.Template.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T21:13:09.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Inkstack.Api\\appsettings.Production.json",
+              "ToolTip": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Production.json",
+              "RelativeToolTip": "Inkstack.Api\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T21:12:36.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Testing.json",
+              "DocumentMoniker": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Testing.json",
+              "RelativeDocumentMoniker": "Inkstack.Api\\appsettings.Testing.json",
+              "ToolTip": "C:\\Repos\\inkstack\\Inkstack.Api\\appsettings.Testing.json",
+              "RelativeToolTip": "Inkstack.Api\\appsettings.Testing.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T21:12:03.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Repos\\inkstack\\Inkstack.Core\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Inkstack.Core\\Models\\Post.cs",
+              "ToolTip": "C:\\Repos\\inkstack\\Inkstack.Core\\Models\\Post.cs",
+              "RelativeToolTip": "Inkstack.Core\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T21:00:09.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repos\\inkstack\\Inkstack.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Inkstack.Api\\Program.cs",
+              "ToolTip": "C:\\Repos\\inkstack\\Inkstack.Api\\Program.cs",
+              "RelativeToolTip": "Inkstack.Api\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:52:13.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
