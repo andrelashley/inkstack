@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Repos\\inkstack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\inkstack\\Inkstack.Api\\PostEndpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inkstack.Api\\PostEndpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\postendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|solutionrelative:inkstack.api\\postendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E4F6710-4E82-A3B5-0185-91CE6782E048}|Inkstack.Api\\Inkstack.Api.csproj|c:\\repos\\inkstack\\inkstack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Inkstack.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-09T21:37:06.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T21:37:06.008Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Inkstack.Api\\appsettings.Template.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-09T21:13:09.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T21:13:09.473Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "Inkstack.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:52:13.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T20:52:13.229Z"
             }
           ]
         }
