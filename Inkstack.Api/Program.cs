@@ -1,6 +1,12 @@
 using Inkstack.Core.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Inkstack.Api.Data;
+using Inkstack.Api;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<InkstackApiContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("InkstackApiContext") ?? throw new InvalidOperationException("Connection string 'InkstackApiContext' not found.")));
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -35,18 +41,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-
-var posts = new List<Post> 
-{
-    new Post { Id = 1,  Title = "Hello World", ShortDescription = "Hello World!" },
-    new Post { Id = 2,  Title = "Hello World", ShortDescription = "Hello World!" },
-    new Post { Id = 3,  Title = "Hello World", ShortDescription = "Hello World!" },
-};
-
-app.MapGet("/posts", () => 
-{ 
-    return posts;
-});
+app.MapPostEndpoints();
 
 app.Run();
 
