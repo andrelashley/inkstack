@@ -61,6 +61,8 @@ appsettings.Development.json
 appsettings.Testing.json
 appsettings.Production.json
 
-Inkstack.Api/*.db
-Inkstack.Api/*.db-shm
-Inkstack.Api/*.db-wal
+.vs/
+
+Inkstack.Api/Data/*.db
+Inkstack.Api/Data/*.db-shm
+Inkstack.Api/Data/*.db-wal

@@ -9,7 +9,7 @@ public static class PostEndpoints
 {
     public static void MapPostEndpoints (this IEndpointRouteBuilder routes)
     {
-        var group = routes.MapGroup("/api/Post").WithTags(nameof(Post));
+        var group = routes.MapGroup("/api/posts").WithTags(nameof(Post));
 
         group.MapGet("/", async (InkstackApiContext db) =>
         {
@@ -32,7 +32,6 @@ public static class PostEndpoints
             var affected = await db.Post
                 .Where(model => model.Id == id)
                 .ExecuteUpdateAsync(setters => setters
-                    .SetProperty(m => m.Id, post.Id)
                     .SetProperty(m => m.Title, post.Title)
                     .SetProperty(m => m.ShortDescription, post.ShortDescription)
                     );
@@ -44,7 +43,7 @@ public static class PostEndpoints
         {
             db.Post.Add(post);
             await db.SaveChangesAsync();
-            return TypedResults.Created($"/api/Post/{post.Id}",post);
+            return TypedResults.Created($"/api/posts/{post.Id}",post);
         })
         .WithName("CreatePost");
 
