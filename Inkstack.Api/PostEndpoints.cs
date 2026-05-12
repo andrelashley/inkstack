@@ -33,7 +33,6 @@ public static class PostEndpoints
                 .Where(model => model.Id == id)
                 .ExecuteUpdateAsync(setters => setters
                     .SetProperty(m => m.Title, post.Title)
-                    .SetProperty(m => m.ShortDescription, post.ShortDescription)
                     );
             return affected == 1 ? TypedResults.Ok() : TypedResults.NotFound();
         })
