@@ -1,3 +1,5 @@
+import Header from "./components/Header";
+import Posts from "./components/Posts";
 
 export default function App() {
   const posts = [
@@ -20,21 +22,10 @@ export default function App() {
   ];
 
   return (
-    <>
-      <h1>inkstack</h1>
-      {posts.length === 0 ?
-        <p>There are no blog posts.</p>
-        :
-        posts.map(post => {
-          return (
-            <p key={post.id}>
-              <b>{post.author.username}</b> &mdash; {post.timestamp}
-              <br />
-              {post.text}
-            </p>
-          );
-      })}
-    </>
+    <div style={{margin: '10px'}}>
+      <Header />      
+      <Posts />
+    </div>
   )
 }
 
