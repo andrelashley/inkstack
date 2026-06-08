@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
-
-// const BASE_API_URL = process.env.REACT_APP_BASE_API_URL;
+import { useApi } from "../contexts/ApiProvider";
 
 export default function Posts() {
   const [posts, setPosts] = useState<any[]>([]);
-  const baseUrl = import.meta.env.VITE_REACT_APP_BASE_API_URL;
+  const api = useApi();
 
   useEffect(() => {
     (async () => {
-      const response = await fetch(baseUrl + '/api/posts');
-      if (response.ok) {
+      const response = await api.request('/posts');
+      if (response) {
         const results = await response.json();
         setPosts(results);
       }
