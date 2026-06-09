@@ -6,23 +6,33 @@ export default class InkstackApiClient {
         this.baseUrl = BASE_API_URL + '/api';
     }
 
-    async request(path) {
-        
+    async request(options) {
+        let query = new URLSearchParams(options.query || {}).toString();
+        if(query !== '') {
+            query = '?' + query;
+        }
+
         let response;
         try {
-            response = await fetch(this.baseUrl + path, {
-                method: 'GET',
+            response = await fetch(this.baseUrl + options.url + query, {
+                method: options.method,
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    ...options.headers,
                 },
-                body: null
+                body: options.body ? JSON.stringify(options.body) : null,
             });
         } catch (error) {
             response = {
+                ok: false,
                 status: 500
             };
         }
 
         return response;
+    }
+
+    async get(url, query, options) {
+        return this.request({method: 'GET', url, query, ...options});
     }
 }

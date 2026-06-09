@@ -7,7 +7,7 @@ export default function Posts() {
 
   useEffect(() => {
     (async () => {
-      const response = await api.request('/posts');
+      const response = await api.get('/posts');
       if (response) {
         const results = await response.json();
         setPosts(results);
