@@ -35,4 +35,9 @@ export default class InkstackApiClient {
     async get(url, query, options) {
         return this.request({method: 'GET', url, query, ...options});
     }
+
+    // async post(url, body, options) {
+    //     return this.request({method: 'POST', url, body, ...options});
+    // }
+
 }
